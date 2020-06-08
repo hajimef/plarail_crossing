@@ -27,7 +27,7 @@ sv2.stop()
 
 try:
     while(True):
-        if dir == DIR_NO and time.time() - epoch > 1.5:
+        if dir == DIR_NO and time.time() - epoch > 3:
             if sw_left.is_pushed():
                 dir = DIR_LR
             if sw_right.is_pushed():
